@@ -1,0 +1,23 @@
+[
+  {
+    "description": "login request",
+    "request": {
+      "uri": "/login",
+      "method": "POST",
+      "json": {
+        "userName": "许文光大傻逼",
+        "userPassword": "123456"
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "FUNDSWATCHER-TOKEN": "{\"id\":1}"
+      },
+      "json": {
+        "userName": "许文光大傻逼"
+      }
+    }
+  }
+]
+
